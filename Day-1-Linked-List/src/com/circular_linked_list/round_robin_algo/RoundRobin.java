@@ -80,6 +80,7 @@ public void startProcess(){
 
         }
     System.out.println("\nAll processes are executed..........");
+    System.out.println("\nTotal Time Taken by process: "+time);
     System.out.println("\nAverage time taken by process: "+(time/t));
 
 

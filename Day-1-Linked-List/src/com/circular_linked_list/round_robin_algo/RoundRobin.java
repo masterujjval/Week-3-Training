@@ -47,14 +47,25 @@ public void startProcess(){
         Node prev=head;
         int t=counter;
     System.out.println("\nTime Quantum is: "+tq);
+    System.out.println("\nStarting the process execution....\n");
+        // turn around time
+        int tt=0;
 
         while(counter!=0){
             time+=(tail.burstTime)-tq;
             tail.burstTime= (tail.burstTime)-tq;
+            if(counter==1){
+                tail.next=tail;
+            }
+
             if(tail.burstTime<=0){
+
+
+
                 System.out.println("\nDeleting the process: "+tail.processId);
                 counter--;
                 prev.next=tail.next;
+
 
             }
             else {
@@ -66,6 +77,7 @@ public void startProcess(){
             }
             prev=tail;
             tail=tail.next;
+
 
         }
     System.out.println("\nAll processes are executed..........");

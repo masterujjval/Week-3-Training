@@ -1,4 +1,4 @@
-package stackqueuehashsethashmap.hashmapshashfunctions.pairwithgivensuminanarray;
+package com.hashmap_and_hash_function.pairwithgivensuminanarray;
 import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Map;

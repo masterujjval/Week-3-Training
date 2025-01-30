@@ -1,4 +1,4 @@
-package package com.hashmap_and_hash_function.longestconsecutivesequence;
+package com.hashmap_and_hash_function.longestconsecutivesequence;
 
 import java.util.HashMap;
 

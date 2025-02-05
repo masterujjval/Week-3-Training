@@ -3,7 +3,7 @@ package binary_search.challenge_problem;
 public class Main{
 public static void main(String[] args) {
     // Example array for Linear Search
-    int[] arr1 = {3, 4, -1, 1};
+    int[] arr1 = {1,3,6,7,8};
 
     // Find first missing positive integer
     int firstMissingPositive = SearchProblems.findFirstMissingPositive(arr1);
